@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #334756;
+  color: #f0a500;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px 20px;
+  background: #0000003b;
+  width: 7rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.counter {
+  font-size: 1.5rem;
+  margin: 12px 0;
+  color: #f0a500;
+  font-weight: 900;
+}
+.fa {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.fa-facebook-official {
+  color: #1877f2;
+}
+.fa-instagram {
+  color: #e4405f;
+}
+.fa-youtube-play {
+  color: #cd201f;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
